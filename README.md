@@ -30,7 +30,7 @@ The Web App has below pages:
 
 ### Application setup
 
-The application requires Ruby 3.1.2. With this Ruby version in place, install `bundler` and run `bundle install` from the root of the repository.
+The application requires Ruby 3.3.14. With this Ruby version in place, install `bundler` and run `bundle install` from the root of the repository.
 
 To check if everything is fine, you can run the test suite with `rake spec`.
 
