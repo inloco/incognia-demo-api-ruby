@@ -10,7 +10,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1.2
+        ruby-version: 3.3.14
     - name: Run Database
       run: docker run --name=db --network=host -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres
     - name: Run tests
