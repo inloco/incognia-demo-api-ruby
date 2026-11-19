@@ -19,4 +19,5 @@ jobs:
         bundle install
         rake db:create
         rake db:schema:load
-        bundle exec rake spec
+        # Prefer the runner's sandbox-enabled Chrome over auto-detected Chromium.
+        BROWSER_PATH="$CHROME_BIN" bundle exec rake spec
